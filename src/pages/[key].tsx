@@ -77,14 +77,15 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const fs = require('fs');
   const path = require('path');
+  const key = params ? params.key || 'index' : 'index';
 
-  const mdPath = path.join(process.cwd(), 'docs', params.key + '.md');
+  const mdPath = path.join(process.cwd(), 'docs', key + '.md');
   const doc = fs.readFileSync(mdPath, { encoding: 'utf-8' });
 
   return {
     props: {
       doc: transform(doc),
-      slug: '/' + params.key,
+      slug: '/' + key === 'index' ? '' : key,
     },
   };
 }
