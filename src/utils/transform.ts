@@ -69,8 +69,22 @@ function transformTOC(markdown: string) {
   return markdown;
 }
 
+/* :problems - :problems(topicSlugs) */
+function transformProblems(markdown: string) {
+  const regexp = /\:problems\((.*)\)/;
+  let result = regexp.exec(markdown);
+  while (result) {
+    const key = result[1];
+    const url = `https://leetcode.com/problemset/all/?page=1&topicSlugs=${key}&difficulty=EASY&sort=DESCENDING&order=AC_RATE`;
+    markdown = markdown.replace(regexp, `[LeetCode - ${key}](${url})`);
+    result = regexp.exec(markdown);
+  }
+  return markdown;
+}
+
 export function transform(markdown: string) {
   markdown = transformQuoteToc(markdown);
+  markdown = transformProblems(markdown);
   markdown = transformTOC(markdown);
   return markdown;
 }
