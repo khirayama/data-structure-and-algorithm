@@ -1,8 +1,32 @@
-# データ構造
+---
+title: 'データ構造'
+description: 'データ構造'
+thumbnail: ''
+seo:
+  title: 'データ構造'
+  description: 'データ構造'
+  thumbnail: ''
+  keywords:
+    - LeetCode
+    - データ構造
+    - アルゴリズム
+created: '2021-08-17'
+updated: '2021-08-17'
+---
 
 ## 抽象データ型、配列、連結リスト、その他
 
 ### スタック
+
+いわゆるLIFO(Last In, First Out)もしくはFILO(First In, Last Out)の構造。
+深さ優先探索や逆ポーランド記法などで利用される。
+
+```py
+class Stack {
+}
+```
+
+:problems(stack)
 
 ### キュー
 
