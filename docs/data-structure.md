@@ -21,11 +21,6 @@ updated: '2021-08-17'
 いわゆるLIFO(Last In, First Out)もしくはFILO(First In, Last Out)の構造。
 深さ優先探索や逆ポーランド記法などで利用される。
 
-```py
-class Stack {
-}
-```
-
 :problems(stack)
 
 ### キュー
