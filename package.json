@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "next"
+    "dev": "next -p 3001"
   },
   "dependencies": {
     "gray-matter": "4.0.3",
