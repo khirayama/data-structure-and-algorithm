@@ -18,8 +18,10 @@ updated: '2021-08-17'
 
 ### スタック
 
-いわゆるLIFO(Last In, First Out)もしくはFILO(First In, Last Out)の構造。
-深さ優先探索や逆ポーランド記法などで利用される。
+- いわゆるLIFO(Last In, First Out)もしくはFILO(First In, Last Out)の構造
+- 利用
+  - 深さ優先探索
+  - 逆ポーランド記法
 
 :problems(stack)
 
