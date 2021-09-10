@@ -18,7 +18,7 @@ updated: '2021-08-17'
 
 ### スタック
 
-- いわゆるLIFO(Last In, First Out)もしくはFILO(First In, Last Out)の構造
+- LIFO(Last In, First Out)もしくはFILO(First In, Last Out)の構造
 - 利用
   - 深さ優先探索
   - 逆ポーランド記法
@@ -27,6 +27,7 @@ updated: '2021-08-17'
 
 ### キュー
 
+- FIFO(First In, First Out)の構造
 - 利用
   - 幅優先探索
 
