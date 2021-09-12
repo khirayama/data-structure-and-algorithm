@@ -23,6 +23,7 @@ updated: '2021-08-17'
   - 深さ優先探索
   - 逆ポーランド記法
 
+[スタック Wikipedia](https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%BF%E3%83%83%E3%82%AF)
 :problems(stack)
 
 ### キュー
@@ -31,6 +32,7 @@ updated: '2021-08-17'
 - 利用
   - 幅優先探索
 
+[キュー Wikipedia](https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%A5%E3%83%BC_(%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF))
 :problems(queue)
 
 ### 両端キュー
@@ -50,7 +52,7 @@ updated: '2021-08-17'
   - 割り込み
   - ハフマン符号
 
-[優先度付きキュー - Wikipedia](https://ja.wikipedia.org/wiki/%E5%84%AA%E5%85%88%E5%BA%A6%E4%BB%98%E3%81%8D%E3%82%AD%E3%83%A5%E3%83%BC#%E5%BF%9C%E7%94%A8%E4%BE%8B)
+[優先度付きキュー Wikipedia](https://ja.wikipedia.org/wiki/%E5%84%AA%E5%85%88%E5%BA%A6%E4%BB%98%E3%81%8D%E3%82%AD%E3%83%A5%E3%83%BC#%E5%BF%9C%E7%94%A8%E4%BE%8B)
 :problems(heap-priority-queue)
 
 ### 連結リスト
