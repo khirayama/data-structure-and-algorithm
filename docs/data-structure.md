@@ -77,6 +77,14 @@ updated: '2021-08-17'
 
 ### セット 
 
+- 重複データを持たない集合体
+- 重複を許す場合、バグという
+- 使用例
+  - 重複排除
+
+[セット (抽象データ型) Wikipedia](https://ja.wikipedia.org/wiki/%E3%82%BB%E3%83%83%E3%83%88_(%E6%8A%BD%E8%B1%A1%E3%83%87%E3%83%BC%E3%82%BF%E5%9E%8B))
+:problems(ordered-set)
+
 ### 素集合データ構造(Union-Find)
 
 
