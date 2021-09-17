@@ -87,6 +87,16 @@ updated: '2021-08-17'
 
 ### 素集合データ構造(Union-Find)
 
+- グループとしてまとめ、同じグループかを判定する構造とアルゴリズム
+- 木構造で現す場合、Union-Find木という
+  - 木構造で深くすると効率が悪い場合も多いので、すべて根につなげる実装もある
+- 使用例
+  - クラスカル法
+- 参考記事
+  - [競プロ覚書：Union-Find まとめ - pyてよn日記](https://pyteyon.hatenablog.com/entry/2019/03/11/200000)
+
+[素集合データ構造 Wikipedia](https://ja.wikipedia.org/wiki/%E7%B4%A0%E9%9B%86%E5%90%88%E3%83%87%E3%83%BC%E3%82%BF%E6%A7%8B%E9%80%A0)
+:problems(union-find)
 
 ## 木構造
 
