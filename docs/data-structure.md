@@ -98,12 +98,24 @@ updated: '2021-08-17'
 [素集合データ構造 Wikipedia](https://ja.wikipedia.org/wiki/%E7%B4%A0%E9%9B%86%E5%90%88%E3%83%87%E3%83%BC%E3%82%BF%E6%A7%8B%E9%80%A0)
 :problems(union-find)
 
+
 ## 木構造
+
+- ノードと言われると頂点と、エッジと言われる頂点間を結ぶ辺で構成される
+- 親子関係のような有向なものは根付き木となる
+- 根ノード、葉ノード、内部ノード、親ノード、子ノード、兄弟ノード、子孫ノード、先祖ノード、高さ、深さ、部分木、真部分木、森などの用語の理解しておく
+
+[木構造 (データ構造) Wikipedia](https://ja.wikipedia.org/wiki/%E6%9C%A8%E6%A7%8B%E9%80%A0_(%E3%83%87%E3%83%BC%E3%82%BF%E6%A7%8B%E9%80%A0))
+:problems(tree)
 
 ### 二分木
 
-- 二分探索木
-- 平衡二分木
+[二分木 Wikipedia](https://ja.wikipedia.org/wiki/%E4%BA%8C%E5%88%86%E6%9C%A8)
+:problems(binary-tree)
+
+### 二分探索木
+
+### 平衡二分木
 
 ### ヒープ
 
