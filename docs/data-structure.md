@@ -114,6 +114,11 @@ updated: '2021-08-17'
 
 ### 二分木
 
+- 根付き木の子が高々2である木構造
+- 使用例
+  - 二分探索
+  - 二分ヒープ
+
 [二分木 Wikipedia](https://ja.wikipedia.org/wiki/%E4%BA%8C%E5%88%86%E6%9C%A8)
 :problems(binary-tree)
 
